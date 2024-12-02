@@ -5,7 +5,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
-    line-height: 140%;
+    line-height: 160%;
 }
 
 header {
@@ -27,10 +27,10 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #255EE9;
+   
   }
 
-li {
+li.inline {
     display: inline;
     color: white;
     padding: 10px;
@@ -54,8 +54,6 @@ div h1 {
     margin-bottom: 10px;
 }
 
-
-
 .btn {
     padding: 15px;
     margin-top: 10px;
@@ -65,10 +63,6 @@ div h1 {
     background-color: #23272A;
     color: white;
 }
-
-/*section.bg-color {
-    background-image: url(../imgs/wave.svg);
-}*/
 
 .flex-section {
     display: flex;
@@ -100,8 +94,6 @@ div.img-section {
 div.text-section {
     padding: 80px 100px;
     flex-basis: 60%;
-    text-align: left;
-   
 }
 
 h2 {
@@ -109,8 +101,19 @@ h2 {
     margin-block: 15px;
 }
 
-.text-section.align-center {
-    align-self: center;
+.align-center{
+    text-align: center;
+}
+
+.text-section.pattern {
+    background-image: url(../imgs/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 50px;
+}
+
+footer {
+    background-color: #23272A;
 }
 
 .container-footer {
@@ -120,16 +123,33 @@ h2 {
     justify-content: space-around;
     align-items: center;
     padding: 100px;
-
-   
 }
-footer {
-    background-color: lightgreen;
+
+.container-footer:first-child {
+    flex-basis: 25%;
+}
+
+.img-size {
+    width: 30px;
+    height: 20px;
+}  
+
+h2.color-purple {
+    color: #7289DA;
 }
 
 div.info {
-    padding: 100px 80px;
-    background-color: white;
+    padding: 20px 50px;
+    flex-basis: calc(100% / 5);
+}
+
+h4 {
+    color: #7289DA;;
+}
+
+li {
+    color: white;
+    padding: 5px;
 }
 
 .container-footer.space-between {
