@@ -1,50 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background-image: url("../imgs/jumbo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .flex-container {
     display: flex;
     justify-content: space-around;
-    background-color: rgb(62, 62, 230);
     height: 100px;
     padding: 10px;
     flex-direction: row;
-    align-items: baseline;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #255EE9;
+  }
+
+li {
+    display: inline;
+    color: white;
+    padding: 10px;
 }
 
 button {
-    width: 90px;
-    height: 50px;
-}
-
-.square {
-    background-color: whitesmoke;
-}
-
-div.square.img {
-    padding: 20px 30px;
-}
-
-div.square.nav {
-    padding: 20px 60px;
+    padding: 10px;
+    border-radius: 30px;
+    border-color: #255EE9;
 }
 
 .container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(62, 62, 230);
+    
     padding: 100px;
-
+    text-align: center;
+    color: white;
 }
 
-.square.title {
-    padding: 100px 200px;
-    background-color: whitesmoke;
-
+h1, p {
+    padding: 20px;
 }
+
+.btn {
+    padding: 15px;
+}
+
+.btn.black {
+    background-color: #23272A;
+    color: white;
+}
+
 .violet.section {
     background-color: violet;
     height: 400px;
