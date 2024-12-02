@@ -54,6 +54,10 @@ div h1 {
     margin-bottom: 10px;
 }
 
+.text {
+    padding-inline: 200px;
+}
+
 .btn {
     padding: 15px;
     margin-top: 10px;
@@ -72,6 +76,12 @@ div h1 {
 
 .bg-color{
     background-color: #f6f6f6c9;
+}
+
+.wave {
+    width: 100%;
+    display: block;
+
 }
 
 .flex-section.reverse {
@@ -125,7 +135,7 @@ footer {
     
 }
 
-.container-footer:first-child {
+.info.flex-basis {
     flex-basis: 25%;
 }
 
@@ -138,9 +148,18 @@ h2.color-purple {
     color: #7289DA;
 }
 
+#language {
+    background-color: #23272A;
+    border: #23272A;
+}
+
 div.info {
     padding: 20px 50px;
     flex-basis: calc(100% / 5);
+}
+
+.logo {
+    padding-block: 10px;
 }
 
 h4 {
