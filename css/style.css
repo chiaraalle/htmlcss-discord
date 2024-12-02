@@ -114,6 +114,7 @@ h2 {
 
 footer {
     background-color: #23272A;
+    padding: 20px;
 }
 
 .container-footer {
@@ -121,8 +122,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
-    padding: 100px;
+    
 }
 
 .container-footer:first-child {
@@ -152,17 +152,15 @@ li {
     padding: 5px;
 }
 
-.container-footer.space-between {
+.flex {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    background-color: lightgreen;
-    padding: 20px;
-    border-top: 1px solid black;
-
+    border-top: 1px solid #7289DA;
+    padding-block: 10px;
 }
 
-.imgs {
-    padding: 40px 70px;
-    background-color: white;
+.btn-blue {
+    background-color: #6C82CD;
+    border-color: #6C82CD;
+    color: white;
 }
