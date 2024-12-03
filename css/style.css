@@ -47,6 +47,7 @@ button {
     padding: 100px;
     text-align: center;
     color: white;
+    /*possiamo mettere in colonna e dare del row-gap per dare spazio a tutti gli elementi. Inoltre possiamo dare un widht:60% e margin:0 auto per centrare il tutto*/
 }
 
 div h1 {
@@ -119,7 +120,8 @@ h2 {
     background-image: url(../imgs/stars.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    padding: 50px;
+    padding: 50px; 
+    /*width:50% del contenitore e margin 0 e auto sarebbe stata la scelta pi corretta per non occupare la linea intera*/
 }
 
 footer {
